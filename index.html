@@ -6,38 +6,35 @@
     <title>commisite</title>
     <style>
         body {
-            display: flexbox;
-            margin: 0;
+            display: flexbox; 
+            margin: 0;/* избавляюсь от граней */
         }
 
         .header {
-            background: #faf333;
-            /* Цвет фона */
-            width: auto;
-            /* Ширина блока */
-            padding: 10px;
-            /* Поля */
-            color: #DB261D;
+            background: #faf333; /* Цвет фона */
+            width: auto; /* Ширина блока */
+            padding: 10px; /* Поля */
+            color: #DB261D; /*цвет текста*/
         }
 
         .headtext {
-            width: auto;
-            text-align: center;
+            width: auto; /*по тексту дабы сжался*/
+            text-align: center; /*текст в центре*/
         }
 
         html {
             display: flexbox;
-            background-color: #DB261D;
+            background-color: #DB261D; /*на всякий*/
         }
 
         h1 {
-            color: #cac52d;
-            font-weight: bold;
+            color: #cac52d; 
+            font-weight: bold; 
             font-size: 30mm;
             font-style: italic;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-align: center;
-            word-break: break-all;
+            word-break: break-all; /*как будут переносится слова (по буквам)*/
         }
 
         p {
@@ -45,17 +42,16 @@
             font-size: 10mm;
             font-family: monospace;
             text-align: center;
-            outline: black;
-            -webkit-text-stroke-width: 1px;
+            outline: black; 
+            -webkit-text-stroke-width: 1px; /*обводка чёрная*/
             -webkit-text-stroke-color: black;
         }
 
         .bodybox {
             display: flexbox;
             width: auto;
-            /* Ширина блока */
             padding: 10px;
-            margin-right: 5%;
+            margin-right: 5%; /*отсутпы*/
             margin-left: 5%;
         }
 
@@ -65,12 +61,9 @@
         }
         footer {
             background: #3d3d3d;
-            /* Цвет фона */
             width: auto;
-            /* Ширина блока */
             padding: 10px;
-            /* Поля */
-            color: #575757;
+            color: #575757; /*текст чутка светлее*/
         }
         h2 {
             width: auto;
@@ -83,11 +76,14 @@
 
 <body>
     <header class="header">
-        <p class="headtext"><a href="index.html">Главная</a>
+        <p class="headtext"> 
+            <a href="htmlcommi.html">Главная</a> 
             <a href="htmltablecommi.html">Таблица</a>
         </p>
+        <!-- менюшка -->
     </header>
     <div class="bodybox">
+        <!-- основное див -->
         <h1>
             ТОВАРИЩ!
         </h1>
@@ -95,15 +91,18 @@
             ЗЛОЙ КАПИТАЛИСТ АМЕРИКА СНОВА УКРАСТЬ ТВОЙ КОШКА ЖЕНА!
         </p>
         <p><img class="imgcat" src="catwife.jpg" alt=""></p>
+        <!-- картиночка -->
         <h1>БРАТ!</h1>
         <p>ВПУСТИ ВЕЛИКОГО МАО В СЕРДЦЕ. ОТПРАВЛЯЙСЯ ВОЙНА СЪ БУРЖУАЗ!!111!</p>
         <p><audio controls src="redsun.mp3" autoplay loop></audio></p>
+        <!-- музыка -->
     </div>
     <footer>
         <h2>
             Партия смотрит за тобой. Сделай Мао гордится.
         </h2>
     </footer>
+    <!-- незаметное послание -->
 </body>
 
 </html>
