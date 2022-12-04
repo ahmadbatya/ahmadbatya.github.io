@@ -59,10 +59,14 @@
             text-align: center;
             word-break: normal;
         }
+        /* все до этого их индекса */
 
-        td {
-            border: 3px solid #111111;
+        td { 
+            /* ячейка */
+            border: 3px solid #111111; 
+            /* граница */
             background-color: white;
+            /* общий фон */
             margin: 5px;
             padding: 5px;
             font-weight: 900;
@@ -72,6 +76,7 @@
 
         table {
             background-color: #faf333;
+            /* фон меж ячеек */
             width: 100%;
             height: fit-content;
         }
@@ -79,6 +84,7 @@
             width: 100%;
             max-height: 100%;
             min-height: 30%;
+            /* долгая история... */
         }
     </style>
 
@@ -86,9 +92,11 @@
 
 <body>
     <header class="header">
-        <p class="headtext"><a href="index.html">Главная</a>
+        <p class="headtext">
+            <a href="htmlcommi.html">Главная</a>
             <a href="htmltablecommi.html">Таблица</a>
         </p>
+        <!-- менюшка -->
     </header>
     <div class="bodybox">
         <h1>РЕЗУЛЬТАТ ПЯТИЛЕТКА</h1>
@@ -99,6 +107,7 @@
                 <td style="background-color: #8D918D;">СТАЛЬ ТЫС. Т.</td>
                 <td style="background-color:#70543e;">СМЕРТЬ МЛН. ГРЯЗЬУЙГУР</td>
                 <td style="background-color:violet;">ВЫДАНО ТЫС. КОШКОЖЕНА</td>
+                <!-- первая строка, не хотел 5 классов поэтому указал прям тут -->
             </tr>
             <tr>
                 <td style="background-color: palegoldenrod;">1954</td>
@@ -143,8 +152,10 @@
                 <td style="background-color: yellowgreen;">5674,5</td>
             </tr>
         </table>
-        <h1 style="font-size: 12mm;">ХОРОШАЯ РАБОТА!</h1>
+        <h1 style="font-size: 12mm;">ХОРОШАЯ РАБОТА!</h1> 
+        <!-- здесь отдельно задал размер дабы не создавать еще класс -->
         <iframe src="https://www.youtube.com/embed/2si_krLsBog" title="Партия Гордиться Тобой!!!❤️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- код для виде предоставил сам ютуб -->
     </div>
 </body>
 
